@@ -1,0 +1,43 @@
+{
+    
+    "subject":"AMS",
+    "number":"220",
+    "semester":"Winter",
+    "year":"1994",
+    "title_cd":"Computer Science IV",
+    
+    
+    "instructorName":"Haiqi Wu",
+    "instructorHome":"http://www.haiqiwu.wix.com/home",
+
+
+    "addrBannerImg":"./images/Default_yale_logo_department.png",
+    "addrLeftImg":"./images/Default_yale_logo_department.png",
+    "addrRightImg":"./images/Default_yale_logo_department.png",
+    
+    "styleSheet":"./css/sea_wolf_1.css",
+   
+   "site_pages":[
+    {    "use":true , "navbarTitle":"Home" ,  "fileName": "index.html"     },
+        {    "use":true , "navbarTitle":"Syllabus" ,  "fileName": "syllabus.html"     },
+            {    "use":true , "navbarTitle":"Schedule" ,  "fileName": "schedule.html"     },
+            {  "use":true , "navbarTitle":"HWs" ,  "fileName": "hws.html" },
+            { "use":true , "navbarTitle":"Projects" ,  "fileName": "projects.html" }
+
+    
+    ],
+   
+
+    "teams": [
+        { "name": "Aquamarine",  "red": "127", "green": "255", "blue": "212", "text_color": "black" }
+      
+    ],
+    
+    "students": [
+	
+	{ "lastName": "Maskaliova",     "firstName": "Maryia",      "team": "Aquamarine",     "role": "Lead Programmer" },
+	{ "lastName": "Karnati",        "firstName": "Thomas",      "team": "Aquamarine",     "role": "Project Manager" },
+	{ "lastName": "Monsour",        "firstName": "Matthew",     "team": "Aquamarine",     "role": "Data Designer" },
+	{ "lastName": "Wang",           "firstName": "Wei Bin",     "team": "Aquamarine",     "role": "Lead Designer" }
+    ]
+}

@@ -1,0 +1,117 @@
+
+{
+    "startHour":"10",
+    "endHour":"19",
+    "undergrad_tas":[
+        {
+            "name":"Chase",
+            "email":"chase@stonybrook.edu",
+            "undergrad":false
+        },
+        {
+            "name":"Haiyang",
+            "email":"haiyang.kang@stonybrook.edu",
+            "undergrad":false
+        },
+        {
+            "name":"Wonje Kang",
+            "email":"wonje.kang@stonybrook.edu",
+            "undergrad":false
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"MONDAY",
+            "time":"10_00am",
+            "name":"Haiyang"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"2_00pm",
+            "name":"Chase"
+        }
+    ],
+    "subjectCD":"CSE",
+    "numberCD":"219",
+    "semesterCD":"Fall",
+    "yearCD":"2017",
+    "titleCD":"Computer Science III",
+    "instructorNameCD":"Richard McKenna",
+    "instructorHomeCD":"http://www.cs.stonybrook.edu/~richard",
+    "exportDirCD":"file:./exportData",
+    "addBannerImg":"file:./images/yale_university.png",
+    "addLeftImg":"file:./images/yale_university.png",
+    "addRightImg":"file:./images/yale_cs.png",
+    "styleSheetCD":"./css/sea_wolf_1.css",
+    "sitePageArray":[
+        {
+            "use":true,
+            "navTitle":"Home",
+            "fileName":"index.html",
+            "script":"HomeBuilder.js"
+        },
+        {
+            "use":true,
+            "navTitle":"Syllabus",
+            "fileName":"Syllabus.html",
+            "script":"SyllabusBuilder.js"
+        },
+        {
+            "use":true,
+            "navTitle":"Schedule",
+            "fileName":"schedule.html",
+            "script":"ScheduleBuilder.js"
+        },
+        {
+            "use":true,
+            "navTitle":"HWs",
+            "fileName":"hws.html",
+            "script":"HWsBuilder.js"
+        },
+        {
+            "use":true,
+            "navTitle":"Projects",
+            "fileName":"projects.html",
+            "script":"ProjectsBuilder.js"
+        }
+    ],
+    "recitationArray":[
+        {
+            "sectionRD":"R02",
+            "dayTimeRD":"Wed 3:30pm-4:23pm",
+            "locationRD":"Old CS 2114",
+            "ta1RD":"Jane Doe",
+            "ta2RD":"Joe Shmo",
+            "instructorRD":"McKenna"
+        }
+    ],
+    "startMon":"2012-04-23",
+    "startFri":"2017-04-21",
+    "schedule_item_Array":[
+        {
+            "typeSD":"Holiday",
+            "dateSD":"2017-02-09",
+            "titleSD":"Spring break",
+            "topicSD":"Event Programming",
+            "timeSD":"11:59pm",
+            "linkSD":"http://test.com/test/test",
+            "criteriaSD":"https://docs.google.com/spreadsheets/d/1hDY9OR4Nu5p2XLd3mkTB93y78Bnk3LInO0Ydkrz8gZg"
+        }
+    ],
+    "teamArray":[
+        {
+            "namePD":"very good",
+            "colorPD":"553467",
+            "textColorPD":"f022cc",
+            "linkPD":"http://c4-comics.appspot.com"
+        }
+    ],
+    "studentArray":[
+        {
+            "lastNamePD":"Brummell",
+            "firstNamePD":"Beau",
+            "teamPD":"Atomic Comics",
+            "rolePD":"Lead Designer"
+        }
+    ]
+}

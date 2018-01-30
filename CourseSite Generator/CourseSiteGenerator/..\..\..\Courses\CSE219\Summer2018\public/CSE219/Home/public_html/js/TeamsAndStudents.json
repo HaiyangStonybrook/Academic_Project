@@ -1,0 +1,31 @@
+
+{
+    "subjectCD":"CSE",
+    "numberCD":"219",
+    "semesterCD":"Fall",
+    "yearCD":"2017",
+    "titleCD":"Computer Science III",
+    "instructorNameCD":"Richard McKenna",
+    "instructorHomeCD":"http://www.cs.stonybrook.edu/~richard",
+    "addBannerImg":"file:./images/yale_university.png",
+    "addLeftImg":"file:./images/yale_university.png",
+    "addRightImg":"file:./images/yale_cs.png",
+    "styleSheetCD":"sea_wolf.css",
+    "students":[
+        {
+            "lastName":"Brummell",
+            "firstName":"Beau",
+            "team":"Atomic Comics",
+            "role":"Lead Designer"
+        }
+    ],
+    "teams":[
+        {
+            "name":"very good",
+            "red":"85",
+            "green":"52",
+            "blue":"103",
+            "text_color":"f022cc"
+        }
+    ]
+}

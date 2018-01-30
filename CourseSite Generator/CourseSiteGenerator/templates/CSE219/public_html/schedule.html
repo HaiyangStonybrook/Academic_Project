@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta name="description" content="CSE 308 - Software Engineering - Spring 2017 Schedule Page" />
+	<title>CSE 308 Schedule</title> 
+	<link rel="stylesheet" type="text/css" href="./css/course_homepage_layout.css" />
+	<link id="cssCBC" rel="stylesheet" type="text/css" href="./css/sea_wolf.css" />
+
+	<style>
+	 table.project {
+		font-weight:bold; 
+		border:0px;
+		border-collapse:collapse;
+	 }
+	 table.project tr {
+		border:0px;
+		border-collapse:collapse;
+	 }
+	 table.project td {
+		border:0px;
+		border-collapse:collapse;
+		padding:5px;
+	}
+	</style>
+
+        <!-- LINK TO OUR JavaScript FILE AND JQuery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="./js/ScheduleBuilder.js"></script>
+
+	<!-- ONCE THE PAGE FULLY LOADS INITIALIZE THE SLIDESHOW -->
+        <script>
+	    $(document).ready()
+	    {
+		initSchedule();
+	    }
+        </script>
+    </head>
+
+
+    <body>
+
+	<div id="content">
+
+	    <div id="navbar">
+		<a href="http://www.stonybrook.edu"><img class="sbu_navbar" alt="Stony Brook University" src="./images/SBUDarkRedShieldLogo.png" /></a>
+		<a id="home_link" class="nav" href="index.html">Home</a>
+		<a id="syllabus_link" class="nav" href="syllabus.html">Syllabus</a>
+		<a id="schedule_link" class="open_nav" href="schedule.html">Schedule</a>
+		<a id="hws_link" class="nav" href="hws.html">HWs</a>
+		<a id="projects_link" class="nav" href="projects.html">Projects</a>
+	    </div>
+
+	    <div id="banner">
+		CSE 308 - Spring 2017<br />
+		Software Engineering
+	    </div>
+
+	    <div id="desc">
+		<table border="1" cellspacing="0" class="schedule">
+                    <tbody id="schedule_table">
+                        <!-- THIS WILL BE FILLED IN BY JAVASCRIPT -->                        
+                    </tbody>
+		</table>
+
+
+		<hr />
+		<a href="http://www.stonybrook.edu"><img class="sunysb" style="float:left" src="./images/SBUWhiteShieldLogo.jpg" alt="SBU" /></a>
+		<a href="http://www.cs.stonybrook.edu"><img style="float:right" src="./images/CSLogo.png" alt="CS" /></a>
+
+		<p style="font-size:9pt; text-align:center;">Web page created and maintained<br />
+		    by <a href="http://www.cs.stonybrook.edu/~richard">Richard McKenna</a><br /><br /><br /><br /></p>
+	    </div>
+	</div>
+    </body>
+</html>

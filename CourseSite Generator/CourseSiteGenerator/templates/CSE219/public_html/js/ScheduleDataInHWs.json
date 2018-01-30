@@ -1,0 +1,47 @@
+{
+    "startingMondayMonth":  "1",
+    "startingMondayDay":    "23",
+    "endingFridayMonth":    "5",
+    "endingFridayDay":      "19",
+
+    "holidays": [
+        { "month": "2",     "day": "9",     "title": "SNOW DAY<br /><img src='./images/SnowDay.gif' />", 
+          "link": "http://funnybizblog.com/funny-stuff/calvin-hobbes-snowman-cartoons" },
+        
+        { "month": "5",  "day": "17",    "title": "<br /><br /><br /><br />",  "link": "" }
+                ],
+
+    "lectures": [ 
+        { "month": "1",     "day": "24",    "title": "Lecture 1",       "topic": "Software<br />Development<br />Lifecycle<br /><br /><br />",      
+          "link": "https://blackboard.stonybrook.edu/bbcswebdav/pid-4007199-dt-content-rid-26212680_1/xid-26212680_1"}
+                ],
+
+    "references": [
+        { "month": "2",     "day": "14",    "title": "Reference",   "topic": "JavaFX Examples", 
+          "link": "https://blackboard.stonybrook.edu/bbcswebdav/pid-3870769-dt-content-rid-24893045_1/xid-24893045_1" },
+        { "month": "2",     "day": "23",    "title": "Reference",   "topic": "jTPS Framework", "link": "./hw/jTPS.zip" },
+        { "month": "3",     "day": "22",    "title": "Midterm Review", "topic": "7pm-9pm<br />New Computer Science 120", "link": "none" }
+    ],
+
+    "recitations":[
+        { "month": "4",    "day": "26",    "title": "Recitation 11",   "topic": "Profiling<br /><br />" }
+                  ],
+
+
+    "hws": [
+        { "month": "2", "day": "22",    "title": "HW 1",    "topic": "due @ 11:59pm<br />(<a href='./hw/HW1_Solution.zip'>Solution</a>)<br />(GUIs)<br />",               
+          "link": "./hw/HW1.html",     "time": "11:59pm",  "criteria": "https://docs.google.com/spreadsheets/d/1hDY9OR4Nu5p2XLd3mkTB93y78Bnk3LInO0Ydkrz8gZg"  },
+        { "month": "3", "day": "13",    "title": "HW 2",    "topic": "due @ 11:59pm<br />(<a href='./hw/HW2_ExampleSolution1.zip'>Solution #1</a>)<br />(<a href='./hw/HW2_ExampleSolution2.zip'>Solution #2</a>)<br />(<a href='./hw/HW2_ExampleSolution3.zip'>Solution #3</a>)<br />(TPS)<br />",            
+          "link": "./hw/HW2.html",     "time": "11:59pm",  "criteria": "https://docs.google.com/spreadsheets/d/14FTSpiPpIMfhesFq4o3-vENvrX2D0NoaqFEaXa37WmE"  },
+        { "month": "3", "day": "31",    "title": "HW 3",    "topic": "due @ 11:59pm<br />(UML)",            
+          "link": "./hw/HW3.html",     "time": "11:59pm",  "criteria": "https://docs.google.com/spreadsheets/d/191YCoIl5dfRgE_R7uHcYsHl0g5sp6--0xDVmav8svcE"  },
+        { "month": "4", "day": "13",    "title": "HW 4",    "topic": "due @ 11:59pm<br />(UI Layout)",      
+          "link": "./hw/HW4.html",     "time": "11:59pm",  "criteria": "https://docs.google.com/spreadsheets/d/1nznBvuw7oNWf0aOb8ywmFlqYXYL5Kw7eALihp6Zhlzc"  },
+        { "month": "4", "day": "24",    "title": "HW 5",    "topic": "due @ 11:59pm<br />(File Management)",      
+          "link": "./hw/HW5.html",     "time": "11:59pm",  "criteria": "none"  },
+        { "month": "5", "day": "8",     "title": "HW 6",    "topic": "due @ 12:01am<br />(Completed App)",  "link": "none",     "time": "12:01am",  "criteria": "none" }
+          ]
+
+
+
+}
